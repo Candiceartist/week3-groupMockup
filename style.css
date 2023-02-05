@@ -1,0 +1,154 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+  }
+
+.adBarTop {
+height: 40px;
+display: flex;
+justify-content: space-between;
+}
+
+.block {
+    width:33%;
+    height: 100%;
+    display: flex;
+}
+.blockPic1 {
+    height: 100%;
+    margin-left: 100px;
+}
+ 
+.playButton {
+    background-color: rgb(147, 200, 228);
+    border-radius: 5px;
+}
+.addText {
+    font-size: smaller;
+}
+
+.navBar {
+    background: rgb(255, 204, 0);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.navText{
+    font-size: large;
+}
+
+.menuBar {
+height: 30px;
+width: 100%,
+}
+.pageTitle {
+    font-weight: 200;
+}
+.mOne {
+    color: rgb(34, 106, 239);
+}
+.titleBar {
+height: 80px;
+width: 100%,
+}
+.sortBar {
+    height: 25px;
+    width: 30%;
+margin-left: 40%;
+   
+}
+.sortButtons {
+    height: 40px;
+    width: 30%;
+    margin-left: 33%;
+}
+.buttonSort1 {
+    background-color: rgb(42, 91, 170);
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    font-size:large;
+}
+.buttonSort2 {
+    background-color: rgb(199, 201, 205);
+    color: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    font-size:large;
+}
+.firstRow {
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+.secondRow {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    display: justify-content;
+}
+.thirdRow {
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+.picBox {
+    height: 200px;
+    width: 33%;
+}
+.picTitle {
+    padding: 0%;
+    margin: 0%;
+    height:40px;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+
+}
+.picWords {
+    height: 80px;
+    width: 100%,
+    font-weight: 400;   
+}
+.blankSpace {
+    height: 300px;
+    width: 100%;
+}
+.footer {
+    background-color: rgb(9, 9, 60);
+    color: white ;
+    text-decoration: none;
+}
+.footergrid {
+    background-color: rgb(9, 9, 60);
+    color: white;
+    display: grid;
+    text-decoration: none;
+    gap: 15rem;
+    grid-template-columns: 200px 200px 200px;
+
+}
+
+.bottomgrid {
+    font-size: smaller;
+    text-decoration: none;
+    width: 300px;
+}
+.logoBox4 {
+    border: solid black;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 125px;
+    width: 125px;
+}
+.usGrid {
+    background-color: rgb(0, 0, 10);
+    width: 110px;
+    margin-left: 20px;
+    height: 40px;
+
+}
